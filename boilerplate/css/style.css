@@ -1,0 +1,6 @@
+@import url(reset.css);
+
+h1, h2 {
+	background: black;
+	color: white;
+}
