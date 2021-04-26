@@ -1,0 +1,33 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+.header, .footer {
+	padding: 20px;
+	background-color: red;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+h2 {
+	margin-bottom: 30px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.content {
+	background-color: rgba(255, 204, 238, .5);
+	font-family: 'Source Code Pro', monospace;
+}
+
+.recipe {
+	box-sizing: border-box;
+	height: 800px;
+	width: 400px;
+	display: inline-block;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	margin: 50px 100px;
+	padding: 50px;
+	background-color: white;
+}
