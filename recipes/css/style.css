@@ -18,6 +18,8 @@ h2 {
 .content {
 	background: linear-gradient(0deg, rgba(255,238,249,.6) 30%, rgba(255,168,226,0.5) 51%);
 	font-family: 'Source Code Pro', monospace;
+	display: flex;
+	justify-content: center;
 }
 
 .recipe {
