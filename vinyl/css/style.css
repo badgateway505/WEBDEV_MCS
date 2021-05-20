@@ -22,6 +22,7 @@ body {
 	justify-content: space-between;
 	width: 70vw;
 	margin: 70px auto;
+	align-content:flex-start;
 }
 
 .item {
@@ -30,6 +31,7 @@ body {
 	width: calc((100% - 100px)/3);
 	min-width: 100px;
 	transition: all 0.3s ease-in-out;
+	height: 100%;
 }
 
 /*ниже хак с паддингом для равномерного скалирования картинок*/
