@@ -1,0 +1,76 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+body {
+	font-family: 'Jost', sans-serif;
+	background: rgb(216,231,164);
+	background: linear-gradient(-15deg, rgba(216,231,164,1) 13%, rgba(255,255,255,1) 100%);
+}
+
+.header, .footer {
+	min-height: 50px;
+	height: 5vw;
+	background-color: #99d98c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.5vw;
+}
+
+.item-container {
+	display: flex;
+	justify-content: space-between;
+	width: 70vw;
+	margin: 70px auto;
+}
+
+.item {
+	box-sizing: border-box;
+	border: 2px solid black;
+	width: calc((100% - 100px)/3);
+	min-width: 100px;
+	transition: all 0.3s ease-in-out;
+}
+
+/*ниже хак с паддингом для равномерного скалирования картинок*/
+.image {
+	background-image: url(../img/image.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.item:hover {
+	background-color: #79bb6b;
+	color: #e8e8e8;
+	transform: scale(1.05) rotate(-1deg);
+}
+
+.image2 {
+	background-image: url(../img/image2.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.image3 {
+	background-image: url(../img/image3.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+
+/*Знаю, что responsive-текст сильно сжимается на маленьких размерах. 
+Чисто для практики сделал*/
+.item-heading {
+	font-weight: 700;
+	font-size: 1.5vw;
+	margin: 2vw 2vw 0 2vw;
+	text-decoration: underline;
+}
+
+.item-text {
+	font-size: 1.2vw;
+	margin: 2vw;
+}
