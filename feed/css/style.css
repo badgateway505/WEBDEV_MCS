@@ -1,0 +1,66 @@
+@import url(reset.css);
+
+body {
+	font-family: Helvetica;
+}
+
+.header, .footer {
+	height: 100px;
+	background-color: blue;
+	line-height: 100px;
+	color: white;
+	font-weight: bold;
+	padding-left: 30px;
+}
+
+.item-container {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.item {
+	display: flex;
+	width: 90vw;
+	height: 45vw;
+	border: 5px solid #000000;
+	box-sizing: border-box;
+	margin: 3vw;
+	align-items: center;
+}
+
+.item-text {
+	font-weight: bold;
+	font-size: 6vw;
+	text-align: center;
+	margin: 5vw;
+}
+
+@media screen and (min-width: 667px) {
+
+	.item-container {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 7vw 1vw;
+	}
+
+	.item {
+	display: flex;
+	width: 40vw;
+	height: 25vw;
+	border: 5px solid #000000;
+	box-sizing: border-box;
+	margin: 1vw;
+	align-items: center;
+	}
+
+	.item-text {
+	font-weight: bold;
+	font-size: 3vw;
+	text-align: center;
+	margin: 2vw;
+	}
+}
