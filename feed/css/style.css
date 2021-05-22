@@ -28,6 +28,12 @@ body {
 	box-sizing: border-box;
 	margin: 3vw;
 	align-items: center;
+	transition: background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+.item:hover {
+	background-color: blue;
+	color: white;
 }
 
 .item-text {
@@ -55,6 +61,7 @@ body {
 	box-sizing: border-box;
 	margin: 1vw;
 	align-items: center;
+	transition: background-color .2s ease-in-out, color .2s ease-in-out;
 	}
 
 	.item-text {
